@@ -1,5 +1,19 @@
 {
+    "name": "code-nuage/neila",
+    "type": "project",
     "require": {
         "jugid/staurie": "^1.3"
-    }
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CodeNuage\\Neila\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "code-nuage",
+            "email": "eloi.hariot@protonmail.com"
+        }
+    ]
 }
