@@ -15,5 +15,8 @@
             "name": "code-nuage",
             "email": "eloi.hariot@protonmail.com"
         }
-    ]
+    ],
+    "scripts": {
+        "start": "php src/main.php"
+    }
 }
