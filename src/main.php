@@ -9,7 +9,6 @@ use Jugid\Staurie\Component\Map\Map;
 use Jugid\Staurie\Component\Menu\Menu;
 use Jugid\Staurie\Component\Money\Money;
 use Jugid\Staurie\Component\PrettyPrinter\PrettyPrinter;
-use Jugid\Staurie\Component\Map\Map;
 use Jugid\Staurie\Staurie;
 
 require_once __DIR__.'/../vendor/autoload.php';
@@ -19,13 +18,24 @@ $staurie = new Staurie('Neila');
 $staurie->register([
     Console::class, 
     PrettyPrinter::class, 
-    Menu::class,
     Map::class
 ]);
 
 // Get the container and register the Map component
 $container = $staurie->getContainer();
 $map = $container->registerComponent(Map::class);
+
+$menu = $container->registerComponent(Menu::class);
+$menu->configuration([
+    'text'=> "\n _._     _,-'\"'\"`-._
+(,-.`._,'(       |\`-/|
+    `-.-' \ )-`( , o o)
+          `-    \`_`\"'-\"",
+    'labels'=> [
+        'new_game' => 'Enter the world',
+        'quit'=> 'Exit game',
+    ]
+]);
 
 // Configure the map system
 $map->configuration([
