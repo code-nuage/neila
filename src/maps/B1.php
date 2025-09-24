@@ -2,6 +2,7 @@
 
 namespace CodeNuage\Neila\maps;
 
+use CodeNuage\Neila\Monsters\Alien;
 use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
 
@@ -35,6 +36,8 @@ class B1 extends Blueprint {
     }
 
     public function monsters() : array {
-        return [];
+        return [
+            new Alien()
+        ];
     }
 }

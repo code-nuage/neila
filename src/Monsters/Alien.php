@@ -1,6 +1,6 @@
 <?php
 
-namespace Jugid\Staurie\Example\Monsters;
+namespace CodeNuage\Neila\Monsters;
 
 use Jugid\Staurie\Game\Monster;
 
