@@ -7,7 +7,7 @@ use Jugid\Staurie\Game\Item_Equippable;
 class CatBox extends Item_Equippable {
 
     public function name() : string {
-        return 'Cat Box';
+        return 'CatBox';
     }
 
     public function description(): string

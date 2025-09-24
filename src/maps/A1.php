@@ -4,6 +4,8 @@ namespace CodeNuage\Neila\maps;
 
 use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
+use CodeNuage\Neila\Npcs\Cat;
+use CodeNuage\Neila\Items\CatBox;
 
 class A1 extends Blueprint {
 
@@ -27,11 +29,11 @@ class A1 extends Blueprint {
     }
 
     public function npcs() : array {
-        return [];
+        return [new Cat()];
     }
 
     public function items() : array {
-        return [];
+        return [new CatBox()];
     }
 
     public function monsters() : array {

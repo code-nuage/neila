@@ -2,6 +2,7 @@
 
 namespace CodeNuage\Neila\Npcs;
 
+use CodeNuage\Neila\Items\CatInABox;
 use Jugid\Staurie\Game\Npc;
 
 class Cat extends Npc {
@@ -16,8 +17,12 @@ class Cat extends Npc {
 
     public function speak() : string|array {
         if($this->playerHasItem('CatBox')) {
+            $this->giveItem(new CatInABox());
+            $blueprint = $this->container->getMap()->getCurrentBlueprint();
+            unset($blueprint->npcs['Jones']);
+            $this->container->getInventory()->removeItem('CatBox');
             return ['MEEEEEEOOOOWWWWWW!!!!', 'You now have a Jones in a box.'];
-            $this.giveItem(new CatInABox());
+
         } else {
             return ["Purr...", "...Meow...", "...It seems Jones is relieved to see you."];
         }

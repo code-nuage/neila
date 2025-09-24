@@ -16,6 +16,8 @@ require_once __DIR__.'/../vendor/autoload.php';
 $staurie = new Staurie('Neila');
 
 $staurie->register([
+    Console::class,
+    Inventory::class,
     Console::class, 
     PrettyPrinter::class, 
     Map::class
@@ -35,6 +37,15 @@ $menu->configuration([
         'new_game' => 'Enter the world',
         'quit'=> 'Exit game',
     ]
+]);
+
+
+$character = $container->registerComponent(MainCharacter::class);
+$character->configuration([
+    'ask_name' => false,
+    'ask_gender' => false,
+    'character_has_name' => true,
+    'character_has_gender' => true,
 ]);
 
 // Configure the map system

@@ -7,7 +7,7 @@ use Jugid\Staurie\Game\Item;
 class CompanionCube extends Item {
 
     public function name() : string {
-        return 'Companion Cube';
+        return 'CompanionCube';
     }
 
     public function description(): string
