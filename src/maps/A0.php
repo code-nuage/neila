@@ -19,9 +19,7 @@ class A0 extends Blueprint {
     }
 
     public function description() : string {
-        return 'You wake up in a cramped cell, barely large enough for the cot bolted to the floor.
-        The air is stale, recycled, and tinged with the metallic tang of fear.
-        Only one thing comes to your mind, you need to get out of here';
+    return 'You wake up in a cramped cell, barely large enough for the cot bolted to the floor. The air is stale, recycled, and tinged with the metallic tang of fear. Only one thing comes to your mind, you need to get out of here';
     }
 
     public function position() : Position {

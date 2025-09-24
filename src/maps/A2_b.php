@@ -19,10 +19,7 @@ class A2_b extends Blueprint {
     }
 
     public function description() : string {
-        return 'The second security checkpoint is more sophisticated, with multiple scanning arrays and reinforced titanium barriers.
-        Decontamination nozzles hang from the ceiling like metallic stalactites, their chambers stained with unknown residues.
-        The floor is marked with yellow hazard lines that have begun to fade, and you notice deep gouges in the metal plating.
-        A automated voice occasionally crackles from hidden speakers, repeating security protocols in a language that sends chills down your spine.';
+    return 'The second security checkpoint is more sophisticated, with multiple scanning arrays and reinforced titanium barriers. Decontamination nozzles hang from the ceiling like metallic stalactites, their chambers stained with unknown residues. The floor is marked with yellow hazard lines that have begun to fade, and you notice deep gouges in the metal plating. A automated voice occasionally crackles from hidden speakers, repeating security protocols in a language that sends chills down your spine.';
     }
 
     public function position() : Position {

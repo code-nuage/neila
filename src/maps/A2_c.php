@@ -19,10 +19,7 @@ class A2_c extends Blueprint {
     }
 
     public function description() : string {
-        return 'The third checkpoint has clearly seen violence - blast marks scar the walls and the security console is partially destroyed.
-        Broken glass from shattered monitoring screens crunches underfoot, and sparks occasionally shower from damaged electrical systems.
-        Emergency lockdown shutters hang at awkward angles, as if something forced its way through with tremendous strength.
-        The metallic taste of fear hangs in the recycled air, and you can see dark handprints pressed against the reinforced windows.';
+    return 'The third checkpoint has clearly seen violence - blast marks scar the walls and the security console is partially destroyed. Broken glass from shattered monitoring screens crunches underfoot, and sparks occasionally shower from damaged electrical systems. Emergency lockdown shutters hang at awkward angles, as if something forced its way through with tremendous strength. The metallic taste of fear hangs in the recycled air, and you can see dark handprints pressed against the reinforced windows.';
     }
 
     public function position() : Position {

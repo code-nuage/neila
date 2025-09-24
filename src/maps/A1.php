@@ -19,10 +19,7 @@ class A1 extends Blueprint {
     }
 
     public function description() : string {
-        return 'The air is thick with the stench of decay and spilled chemicals.
-        This was once a storage area for the lab, with shelves now overturned and their contents scattered across the floor.
-        A makeshift dining area is visible to the side,tables overturned and stained with what you pray is just old rations.
-        Something definitely passed through here, and it wasn\'t human.';
+    return 'The air is thick with the stench of decay and spilled chemicals. This was once a storage area for the lab, with shelves now overturned and their contents scattered across the floor. A makeshift dining area is visible to the side,tables overturned and stained with what you pray is just old rations. Something definitely passed through here, and it wasn\'t human.';
     }
 
     public function position() : Position {

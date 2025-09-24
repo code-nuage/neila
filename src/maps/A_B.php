@@ -19,10 +19,7 @@ class A_B extends Blueprint {
     }
 
     public function description() : string {
-        return 'A junction corridor connecting the upper and lower decks of the ship.
-        The walls here show signs of hasty barricading - welded metal plates and warning signs in multiple languages.
-        Emergency bulkheads hang partially open, their hydraulic systems long since failed.
-        You can feel a noticeable temperature difference as you move between sections, and the lighting shifts from the sickly yellow of deck A to the harsh white of deck B.';
+    return 'A junction corridor connecting the upper and lower decks of the ship. The walls here show signs of hasty barricading - welded metal plates and warning signs in multiple languages. Emergency bulkheads hang partially open, their hydraulic systems long since failed. You can feel a noticeable temperature difference as you move between sections, and the lighting shifts from the sickly yellow of deck A to the harsh white of deck B.';
     }
 
     public function position() : Position {
