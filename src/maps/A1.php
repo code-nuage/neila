@@ -1,11 +1,11 @@
 <?php
 
-namespace src\maps;
+namespace CodeNuage\Neila\maps;
 
 use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
 
-class Map03 extends Blueprint {
+class A1 extends Blueprint {
 
     private Position $position;
 

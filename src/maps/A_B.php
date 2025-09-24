@@ -1,6 +1,6 @@
 <?php
 
-namespace src\maps;
+namespace CodeNuage\Neila\maps;
 
 use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
